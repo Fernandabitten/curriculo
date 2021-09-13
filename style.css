@@ -21,11 +21,16 @@ a :hover{
    cursor: pointer;
 }
 
+.resume_work p button :hover{
+    background-color: #009fd9;
+   cursor: pointer;
+}
+
 .bold {
     font-weight: 700;
     font-size:28px;
     text-transform: uppercase;
-  }
+}
 
 .resume {
     width: 800px;
@@ -57,7 +62,7 @@ a :hover{
 }
 
 .resume .resume_left .resume_skills ul li .skill_progress {
-    width: 60%;
+    width: 40%;
     margin: 0 5px;
     height: 5px;
     background: #009fd9;
